@@ -7,15 +7,19 @@
              x:Class="App1.Views.LoginPage"
              Shell.NavBarIsVisible="False">
     <ContentPage.Content>        
-        <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
-            <!--<StackLayout BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+        <StackLayout Margin="0,50,0,0" Padding="0,0,0,0" VerticalOptions="Start">
+            <StackLayout Margin="0,0,0,30" BackgroundColor="#2196F3" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
-                    <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
-                        <Image Source="xamarin_logo.png" VerticalOptions="Center" HeightRequest="64" />
+                    <ContentView Padding="0,20,0,20" VerticalOptions="FillAndExpand">
+                        <Image Source="ventAppLogo.png" VerticalOptions="Center" HeightRequest="124" />
                     </ContentView>
                 </StackLayout>
-            </StackLayout>-->
-            <Button VerticalOptions="Center" Text="Login" Command="{Binding LoginCommand}"/>
+            </StackLayout>
+            <Label Text="Usuario:" FontSize="Subtitle" />
+            <Entry FontSize="Subtitle" />
+            <Label Text="Clave:" FontSize="Subtitle" />
+            <Entry FontSize="Subtitle" />
+            <Button Margin="10,30,10,0" Padding="0,0,0,0" VerticalOptions="Center" Text="Ingresar" Command="{Binding LoginCommand}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

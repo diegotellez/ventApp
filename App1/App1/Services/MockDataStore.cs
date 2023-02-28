@@ -14,12 +14,12 @@ namespace App1.Services
         {
             items = new List<Item>()
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." }
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Pepito Perez", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Maria Calle", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Pedro Martinez", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Mercedes Campos", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Jorge Espinosa", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Laura Montoya", Description="This is an item description." }
             };
         }
 
